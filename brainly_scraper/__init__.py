@@ -25,7 +25,7 @@ class attachment:
         else:
             return BytesIO(self.content.content)
     def __str__(self) -> str:
-        return f"<[ type: attachment ]>"
+        return "<[ type: attachment ]>"
     def __repr__(self) -> str:
         return self.__str__()
 class answers:
